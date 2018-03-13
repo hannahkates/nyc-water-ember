@@ -1,0 +1,1 @@
+/Users/hannahkates/Sites/nyc-water/tmp/funnel-input_base_path-ucxJcUGk.tmp/adapters/json-api.js

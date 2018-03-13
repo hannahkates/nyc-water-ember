@@ -1,0 +1,1 @@
+/Users/hannahkates/Sites/nyc-water-ember/tmp/funnel-input_base_path-q4q2Owsy.tmp/lib/helpers/singularize.js

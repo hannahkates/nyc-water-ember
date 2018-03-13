@@ -1,0 +1,1 @@
+/Users/hannahkates/Sites/nyc-water-ember/tmp/broccoli_merge_trees-input_base_path-yJt4Tj9g.tmp/5/initializers/export-application-global.js
