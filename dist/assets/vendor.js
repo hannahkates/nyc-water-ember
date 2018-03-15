@@ -63682,8 +63682,7 @@ requireModule('ember')
   generateModule('rsvp', { 'default': Ember.RSVP });
 })();
 
-;(function(define){
-!function() {
+;!function() {
   var d3 = {
     version: "3.5.17"
   };
@@ -73237,7 +73236,20 @@ requireModule('ember')
   });
   if (typeof define === "function" && define.amd) this.d3 = d3, define(d3); else if (typeof module === "object" && module.exports) module.exports = d3; else this.d3 = d3;
 }();
-})((function(){ function newDefine(){ var args = Array.prototype.slice.call(arguments); args.unshift("d3"); return define.apply(null, args); }; newDefine.amd = true; return newDefine; })());
+;(function() {
+  /* globals define, d3 */
+
+  function generateModule(name, values) {
+    define(name, [], function() {
+      'use strict';
+
+      return values;
+    });
+  }
+
+  generateModule('d3', { 'default': d3 });
+})();
+
 ;/* globals define */
 
 function createDeprecatedModule(moduleId) {
