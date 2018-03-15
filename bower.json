@@ -1,0 +1,6 @@
+{
+  "name": "nyc-water-ember",
+  "dependencies": {
+    "d3": "~3.5.6"
+  }
+}
