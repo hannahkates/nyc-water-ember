@@ -12,6 +12,13 @@ h2 {
     margin-left: 25px
 }
 
+h3 {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+  Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 20px;
+    margin-left: 25px
+}
+
 p {
     font-size: 16px;
 }
@@ -25,7 +32,11 @@ p {
 }
 
 .axis {
-  font: 16px sans-serif;
+  font: 14px sans-serif;
+}
+
+.narrative {
+  font: 18px sans-serif;
 }
 
 .axis path,
