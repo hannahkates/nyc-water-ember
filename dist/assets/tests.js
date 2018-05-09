@@ -12,17 +12,17 @@ define('nyc-water/tests/app.lint-test', [], function () {
 
   QUnit.test('components/bar-chart-2.js', function (assert) {
     assert.expect(1);
-    assert.ok(true, 'components/bar-chart-2.js should pass ESLint\n\n');
+    assert.ok(false, 'components/bar-chart-2.js should pass ESLint\n\n9:17 - \'$\' is not defined. (no-undef)');
   });
 
   QUnit.test('components/bar-chart-3.js', function (assert) {
     assert.expect(1);
-    assert.ok(true, 'components/bar-chart-3.js should pass ESLint\n\n');
+    assert.ok(false, 'components/bar-chart-3.js should pass ESLint\n\n9:17 - \'$\' is not defined. (no-undef)');
   });
 
   QUnit.test('components/bar-chart.js', function (assert) {
     assert.expect(1);
-    assert.ok(true, 'components/bar-chart.js should pass ESLint\n\n');
+    assert.ok(false, 'components/bar-chart.js should pass ESLint\n\n9:17 - \'$\' is not defined. (no-undef)');
   });
 
   QUnit.test('resolver.js', function (assert) {
